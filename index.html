@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Resume</title>
+<!--mobile apps-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="My Resume Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+	SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--mobile apps-->
+<!--Custom Theme files-->
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+<link rel="stylesheet" href="css/swipebox.css">
+<link rel="stylesheet" href="css/animate.css">
+<!--//Custom Theme files-->
+<!--js-->
+<script src="js/jquery-1.11.1.min.js"></script> 
+<!-- //js -->
+<!--web-fonts-->
+<link href='//fonts.googleapis.com/css?family=Overlock:400,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<!--//web-fonts-->
+<!--start-smooth-scrolling-->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>	
+<script type="text/javascript" src="js/process.js"></script>	
+<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+</script>
+<!--//end-smooth-scrolling-->
+<script type="tex/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script>
+$(document).ready(function(){
+//profile
+    $("#a2").click(function(){
+        $("#nav2").show();
+    });
+    $("#a2").click(function(){
+        $("#about").show();
+    });
+    $("#a2").click(function(){
+        $("#home").hide();
+    });
+    $("#a2").click(function(){
+        $("#nav1").hide();
+    });
+
+    $("#a3").click(function(){
+        $("#nav3").show();
+    });
+    $("#a3").click(function(){
+        $("#projects").show();
+    });
+    $("#a3").click(function(){
+        $("#home").hide();
+    });
+    $("#a3").click(function(){
+        $("#nav1").hide();
+    });
+
+    $("#a4").click(function(){
+        $("#nav4").show();
+    });
+    $("#a4").click(function(){
+        $("#contact").show();
+    });
+    $("#a4").click(function(){
+        $("#home").hide();
+    });
+    $("#a4").click(function(){
+        $("#nav1").hide();
+    });
+
+
+//about
+    $("#b1").click(function(){
+        $("#nav1").show();
+    });
+    $("#b1").click(function(){
+        $("#home").show();
+    });
+    $("#b1").click(function(){
+        $("#about").hide();
+    });
+    $("#b1").click(function(){
+        $("#nav2").hide();
+    });
+
+    $("#b3").click(function(){
+        $("#nav3").show();
+    });
+    $("#b3").click(function(){
+        $("#projects").show();
+    });
+    $("#b3").click(function(){
+        $("#about").hide();
+    });
+    $("#b3").click(function(){
+        $("#nav2").hide();
+    });
+
+    $("#b4").click(function(){
+        $("#nav4").show();
+    });
+    $("#b4").click(function(){
+        $("#contact").show();
+    });
+    $("#b4").click(function(){
+        $("#about").hide();
+    });
+    $("#b4").click(function(){
+        $("#nav2").hide();
+    });
+
+
+//portfolio
+    $("#c1").click(function(){
+        $("#nav1").show();
+    });
+    $("#c1").click(function(){
+        $("#home").show();
+    });
+    $("#c1").click(function(){
+        $("#projects").hide();
+    });
+    $("#c1").click(function(){
+        $("#nav3").hide();
+    });
+
+    $("#c2").click(function(){
+        $("#nav2").show();
+    });
+    $("#c2").click(function(){
+        $("#about").show();
+    });
+    $("#c2").click(function(){
+        $("#projects").hide();
+    });
+    $("#c2").click(function(){
+        $("#nav3").hide();
+    });
+
+    $("#c4").click(function(){
+        $("#nav4").show();
+    });
+    $("#c4").click(function(){
+        $("#contact").show();
+    });
+    $("#c4").click(function(){
+        $("#projects").hide();
+    });
+    $("#c4").click(function(){
+        $("#nav3").hide();
+    });
+
+//contact
+    $("#d1").click(function(){
+        $("#nav1").show();
+    });
+    $("#d1").click(function(){
+        $("#home").show();
+    });
+    $("#d1").click(function(){
+        $("#contact").hide();
+    });
+    $("#d1").click(function(){
+        $("#nav4").hide();
+    });
+
+    $("#d2").click(function(){
+        $("#nav2").show();
+    });
+    $("#d2").click(function(){
+        $("#about").show();
+    });
+    $("#d2").click(function(){
+        $("#contact").hide();
+    });
+    $("#d2").click(function(){
+        $("#nav4").hide();
+    });
+
+    $("#d3").click(function(){
+        $("#nav3").show();
+    });
+    $("#d3").click(function(){
+        $("#projects").show();
+    });
+    $("#d3").click(function(){
+        $("#contact").hide();
+    });
+    $("#d3").click(function(){
+        $("#nav4").hide();
+    });
+});
+</script>
+<script>
+	$('#menu-about').on('click', function() {
+		$('.top-nav').addClass('animated bounce');
+		 $('.top-nav').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
+		 	$('.top-nav').removeClass('animated bounce');
+		 });
+	});
+</script>
+
+</head>
+<body style="background-color: #E4DBFC;">
+<div class="content">
+	<!--banner-->
+	<div id="home" class="banner animated bounceInDown" style="background-color: #000;padding: 5px;box-shadow: 8px 8px 5px #666;-webkit-animation-duration: 1s;">
+		<div class="banner-info">
+			<div class="container">
+				<div class="col-md-4 header-left">
+					<img src="images/img1.jpg" alt="" class="animated flipInX" style="-webkit-animation-duration: 0.9s;-webkit-animation-delay: 1.5s;" />
+				</div>
+				<div class="col-md-8 header-right">
+					<h2 class="animated wobble" style="-webkit-animation-delay: 2.3s;-webkit-animation-iteration-count:infinite;">Hello</h2>
+					<h1 class="animated bounceInRight" style="-webkit-animation-delay: 2.5s;-webkit-animation-duration:1s;">I'm Von Michael V. Ventanilla</h1>
+					<h6 class="animated bounceInRight" style="-webkit-animation-delay: 2.9s;-webkit-animation-duration:1s;">IV-BSIT-C</h6>
+					<ul class="address">
+						<li>
+							<ul class="address-text animated bounceInRight" style="-webkit-animation-delay: 3.3s;-webkit-animation-duration:1s;">
+								<li><b>CONTACT</b></li>
+								<li>09120170834</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text animated bounceInRight" style="-webkit-animation-delay: 3.7s;-webkit-animation-duration:1s;">
+								<li><b>ADDRESS </b></li>
+								<li>Pangapisan North, Lingayen, Pangasinan</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text animated bounceInRight" style="-webkit-animation-delay: 4.1s;-webkit-animation-duration:1s;">
+								<li><b>E-MAIL </b></li>
+								<li><a href="mailto:example@mail.com"> code.redvon@gmail.com</a></li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text animated bounceInRight" style="-webkit-animation-delay: 4.5s;-webkit-animation-duration:1s;">
+								<li><b>WEBSITE </b></li>
+								<li><a href="http://w3layouts.com">www.myresume.com</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!--//banner-->
+	<!--top-nav-->
+	<div class="top-nav animated bounceInUp" id="nav1" style="-webkit-animation-delay: 5.6s;-webkit-animation-duration:1.3s;">
+		<div class="container">
+			<div class="navbar-header logo">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					Menu
+				</button>
+			</div>
+			<!-- Collect the Bandnav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<div class="menu">
+					<ul class="nav navbar">
+						<li class="bg animated flipInY" style="-webkit-animation-delay: 5s;-webkit-animation-duration:1s;"><a href="#home" class="scroll" id="a1">Profile</a></li>
+						<li class="bg animated flipInY" style="-webkit-animation-delay: 5.2s;-webkit-animation-duration:1s;"><a href="#about" class="scroll 2" id="a2">About</a></li>
+						<li class="bg animated flipInY" style="-webkit-animation-delay: 5.4s;-webkit-animation-duration:1s;"><a href="#projects" class="scroll" id="a3">Portfolio</a></li>
+						<li class="bg animated flipInY" style="-webkit-animation-delay: 5.6s;-webkit-animation-duration:1s;"><a href="#contact" class="scroll" id="a4">Contact</a></li>
+					</ul>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+	</div>	
+	<!--//top-nav-->
+	<!--about-->
+		<div class="top-nav animated zoomInDown" id="nav2" style="display: none;-webkit-animation-duration: 1.5s;">
+		<div class="container">
+			<div class="navbar-header logo">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					Menu
+				</button>
+			</div>
+			<!-- Collect the Bandnav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<div class="menu">
+					<ul class="nav navbar">
+						<li class="bg animated flipInY" style="-webkit-animation-duration:1s;"><a href="#home" class="scroll" id="b1">Profile</a></li>
+						<li class="bg animated flipInY" style="--webkit-animation-duration:1s;"><a href="#about" class="scroll 2" id="b2">About</a></li>
+						<li class="bg animated flipInY" style="-webkit-animation-duration:1s;"><a href="#projects" class="scroll" id="b3">Portfolio</a></li>
+						<li class="bg animated flipInY" style="-webkit-animation-duration:1s;"><a href="#contact" class="scroll" id="b4">Contact</a></li>
+					</ul>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+	</div>	
+	<div id="about" class="about" style="display: none;margin-left: 20px;margin-left: 20px;">
+
+			<div class="container">
+			<h3 class="title animated bounceInLeft" style="-webkit-animation-delay:1.5s;"> About Me</h3>
+			<div class="col-md-7 about-left animated fadeInLeftBig" style="background-image: url(images/add.jpg);box-shadow: 8px 8px 5px #666;padding: 15px;-webkit-animation-delay:1.9s;background-size: cover;">
+				<p style="color: #fff;">My name is Von Michael V. Ventanilla. I am 20 years old. I was born on September 2, 1996 at Bolingit Hospital in San Carlos City, Pangasinan. I live at Pangapisan North Linayen, Pangsinan. My father's name is Raul G. Ventanilla. He works as a machine operator in Valenzuela. My mother's name is Rose Marie V. Ventanilla. She is a housewife and takes care of us. I am the eldest of their three children and I am the only guy in their children. My younger sister Vanessa Mia V. Ventanilla is a graduate of Tourism and now is now working in a company. My youngest sister Vonna Mariel is studying in Pangasinan State University as a senior high school student. I studied at Pangapisan Elementary school during my elemntary days and graduated at the year 2008. Then I enrolled at Pangasinan National High School to study in secondary education. I graduated highschool in the year 2013. Now I am enrolled at Pangasinan State University as a Bachelor of Science in Information Technology student. I am currently in fourth year. My aim next year is to graduate without any conflicts and find a decent job to repay my parents for the blood, sweat and tears they have spent for me to finish my studies.</p>
+			</div>
+			<div class="col-md-4 about-right animated fadeInRightBig" style="-webkit-animation-delay:1.9s">
+				<ul style="background-color: #fff;">
+					<h5>Schools Attended</h5>
+					<li><span class="glyphicon glyphicon-menu-right"></span> Pangapisan Elementary School</li>
+					<li><span class="glyphicon glyphicon-menu-right"></span> Pangasinan National High School</li>
+					<li><span class="glyphicon glyphicon-menu-right"></span> Pangasinan State University</li>
+				</ul>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<!--//about-->
+	<!--portfolio-->
+			<div class="top-nav animated bounceInDown" id="nav3" style="display: none;">
+		<div class="container">
+			<div class="navbar-header logo">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					Menu
+				</button>
+			</div>
+			<!-- Collect the Bandnav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<div class="menu">
+					<ul class="nav navbar">
+						<li class="bg animated flipInY" style="-webkit-animation-duration:1s;"><a href="#home" class="scroll" id="c1">Profile</a></li>
+						<li class="bg animated flipInY" style="-webkit-animation-duration:1s;"><a href="#about" class="scroll 2" id="c2">About</a></li>
+						<li class="bg animated flipInY" style="-webkit-animation-duration:1s;"><a href="#projects" class="scroll" id="c3">Portfolio</a></li>
+						<li class="bg animated flipInY" style="-webkit-animation-duration:1s;"><a href="#contact" class="scroll" id="c4">Contact</a></li>
+					</ul>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+	</div>	
+	<div id="projects" class="portfolio" style="display: none;">
+		<div class="container">
+			<h3 class="title animated slideInLeft">My Projects</h3>
+			<div class="sap_tabs">			
+				<div id="horizontalTab" class="animated slideInRight" style="display: block; width: 100%; margin: 0px;">
+					<ul class="resp-tabs-list wow fadeInUp animated" data-wow-delay=".7s">
+						<li class="resp-tab-item"><span>Photoshop</span></li>
+						<li class="resp-tab-item"><a href="https://criticaldamage3.github.io/MeanMedianMode/"><span> Mean Median Mode</span></a></li>
+						<li class="resp-tab-item"><span><a href="https://criticaldamage3.github.io/Calcu/">Calculator</a></span></li>	
+						<li class="resp-tab-item"><span><a href="https://jjcateringservices.com"> Thesis</a></span></li>				
+					</ul>	
+					<div class="clearfix"> </div>	
+					<div class="resp-tabs-container animated slideInLeft">
+						<div class="tab-1 resp-tab-content animated bounceInLeft">
+							<div class="tab_img">
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/p1.jpg" class="swipebox" title="Thesis Project">
+											<img src="images/p1.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>Our<span> Thesis</span></h3>
+												<p>This is our thesis project.</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/p2.jpg" class="swipebox" title="Thesis Project">
+											<img src="images/p2a.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>Our<span> Thesis</span></h3>
+												<p>This is our thesis project.</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/p3.jpg" class="swipebox" title="Thesis Project">
+											<img src="images/p3a.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>Our<span> Thesis</span></h3>
+												<p>This is our thesis project.</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/p4.jpg" class="swipebox" title="Thesis Project">
+											<img src="images/p4.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>Our<span> Thesis</span></h3>
+												<p>This is our thesis project.</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/p5.jpg" class="swipebox" title="Thesis Project">
+											<img src="images/p5.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>Our<span> Thesis</span></h3>
+												<p>This is our thesis project.</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/p6.jpg" class="swipebox" title="Thesis Project">
+											<img src="images/p6.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>Our<span> Thesis</span></h3>
+												<p>This is our thesis project.</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--ResponsiveTabs-->
+			<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+			<script type="text/javascript">
+				$(document).ready(function () {
+					$('#horizontalTab').easyResponsiveTabs({
+						type: 'default', //Types: default, vertical, accordion           
+						width: 'auto', //auto or any width like 600px
+						fit: true   // 100% fit in a container
+					});
+				});		
+			</script>
+			<!--//ResponsiveTabs-->
+			<!-- swipe box js -->
+			<script src="js/jquery.swipebox.min.js"></script> 
+				<script type="text/javascript">
+					jQuery(function($) {
+						$(".swipebox").swipebox();
+					});
+			</script>
+			<!-- //swipe box js -->
+		</div>
+	</div>
+	<!--//portfolio-->
+	<!--contact -->
+				<div class="top-nav animated bounceInDown" id="nav4" style="display: none;">
+		<div class="container">
+			<div class="navbar-header logo">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					Menu
+				</button>
+			</div>
+			<!-- Collect the Bandnav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<div class="menu">
+					<ul class="nav navbar">
+						<li class="bg animated flipInY" style="-webkit-animation-duration:1s;"><a href="#home" class="scroll" id="d1">Profile</a></li>
+						<li class="bg animated flipInY" style="-webkit-animation-duration:1s;"><a href="#about" class="scroll 2" id="d2">About</a></li>
+						<li class="bg animated flipInY" style="-webkit-animation-duration:1s;"><a href="#projects" class="scroll" id="d3">Portfolio</a></li>
+						<li class="bg animated flipInY" style="-webkit-animation-duration:1s;"><a href="#contact" class="scroll" id="d4">Contact</a></li>
+					</ul>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+	</div><br>
+	<div class="welcome contact animated bounceInUp" id="contact" style="display: none;">
+	
+		<div class="container">
+			<h3 class="title">Contact Us</h3>
+			<div class="contact-row">
+				<div class="col-md-6 contact-left">
+					<iframe src="https://www.google.com/maps/place/Pangapisan+N+St,+Lingayen,+Pangasinan,+Philippines/@16.0254993,120.2092962,17z/data=!4m5!3m4!1s0x33915e5130d472c5:0xacf8152d5ebb3e1f!8m2!3d16.0264893!4d120.2128474?hl=en-US"></iframe>
+				</div>
+				<div class="col-md-6 contact-right">
+					<div class="address-left">
+						<p>Pangapisan North<br> Lingayen, Pangasinan</p>
+					</div>
+					<div class="address-right">
+						<p>Contact:  +639120170834</p>
+						<p>E-mail : <a href="mailto:code.redvon@gmail.com">code.redvon@gmail.com</a></p>
+					</div>
+					<div class="clearfix"></div>
+					<div class="contact-form">
+						<form action="#" method="post">
+							<input type="text" name="Name" placeholder="Name" required="">
+							<input class="email" name="Email" type="text" placeholder="Email" required="">
+							<input class="phone" name="phone" type="text" placeholder="Phone" required="">
+							<textarea name="Message" placeholder="Message" required=""></textarea>
+							<input type="submit" value="SUBMIT" >
+						</form>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!--//contact -->
+	<!--footer-->
+<!-- 	<div class="footer">
+		<div class="container">
+			<p>© 2016 My Resume. All rights reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p>
+		</div>
+	</div>
+	</div> -->
+	<!--//footer-->
+	<!--smooth-scrolling-of-move-up-->
+	<script type="text/javascript">
+		$(document).ready(function() {
+		
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+			};
+			
+			$().UItoTop({ easingType: 'easeOutQuart' });
+			
+		});
+	</script>
+	<!--//smooth-scrolling-of-move-up-->
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
